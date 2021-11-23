@@ -54,3 +54,8 @@ void MainWindow::on_brightness_valueChanged(int value)
     ui->brightlbl->setText(QString::number(k) );
 
 }
+
+void MainWindow::on_actionExit_triggered()
+{
+    QApplication::exit();
+}
